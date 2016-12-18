@@ -12,13 +12,37 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+  {% if page.header %}
   <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ site.title }} | {{ page.title }}">
+  <meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
+  <meta name="twitter:site" content="@{{ site.author.twitter_username }}">
+  <meta name="twitter:creator" content="@{{ site.author.twitter_username }}">
+  <meta name="twitter:image" content="{{ site.imgroot }}Headers/{{ page.header.src }}">
+  {% else %}
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ site.title }}">
   <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:site" content="@{{ site.author.twitter_username }}">
+  <meta name="twitter:creator" content="@{{ site.author.twitter_username }}">
+  <meta name="twitter:image" content="{{ site.url }}/assets/css/images/cover.jpg">
+  {% endif %}
 
+  {% if page.header %}
+  <meta property="og:title" content="{{ site.title }} | {{ page.title }}">
   <meta property="og:type" content="article">
+  <meta property="og:image" content="{{ site.imgroot }}Headers/{{ page.header.src }}">
+  <meta property="og:url" content="{{ page.url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:description" content="{{ page.excerpt | strip_html }}">
+  {% else %}
   <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="{{ site.url }}/assets/css/images/cover.jpg">
+  <meta property="og:url" content="{{ page.url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:description" content="{{ site.description }}">
+  {% endif %}
 
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/css/images/favicons/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/assets/css/images/favicons/apple-touch-icon-60x60.png">
@@ -35,12 +59,12 @@
   <link rel="icon" type="image/png" href="/assets/css/images/favicons/android-chrome-192x192.png" sizes="192x192">
   <link rel="icon" type="image/png" href="/assets/css/images/favicons/favicon-16x16.png" sizes="16x16">
   <link rel="manifest" href="/assets/css/images/favicons/manifest.json">
-  <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico">
+  <link rel="shortcut icon" href="/assets/css/images/favicon.ico">
   <meta name="msapplication-TileColor" content="#ffc40d">
   <meta name="msapplication-TileImage" content="/assets/css/images/favicons/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}feed.xml">
 </head>
