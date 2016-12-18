@@ -35,6 +35,8 @@
   <meta property="og:url" content="{{ page.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:description" content="{{ page.excerpt | strip_html }}">
+  <meta property="og:image:width" content="1000px">
+  <meta property="og:image:height" content="300px">  
   {% else %}
   <meta property="og:title" content="{{ site.title }}">
   <meta property="og:type" content="article">
@@ -42,6 +44,8 @@
   <meta property="og:url" content="{{ page.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image:width" content="1000px">
+  <meta property="og:image:height" content="300px;">  
   {% endif %}
 
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/css/images/favicons/apple-touch-icon-57x57.png">
