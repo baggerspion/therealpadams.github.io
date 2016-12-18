@@ -1,0 +1,40 @@
+title: Baggerspion
+description: "Paul Adams' Wanderings Around Engineering, Free Software and Berlin"
+url: 'http://baggerspion.net'
+baseurl: '/'
+google_analytics: 'UA-88654282-1'
+disqus_shortname: 'baggerspion'
+
+future: true
+
+author:
+  name: 'Paul Adams'
+  email: paul@baggerspion.net
+  twitter_username: therealpadams
+  facebook_username: pauljadams
+  github_username:  therealpadams
+  linkedin_username: pauljadams
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+destination: _site
+paginate: 10
+permalink: /:year/:month/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['Gemfile', 'Gemfile.lock']
+include: ['_pages']
+
+imgroot: http://res.cloudinary.com/baggerspion/image/upload/

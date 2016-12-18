@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Baggerspion</title>
+    <description>Paul Adams' Wanderings Around Engineering, Free Software and Berlin</description>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 18 Dec 2016 21:39:40 +0100</pubDate>
+    <lastBuildDate>Sun, 18 Dec 2016 21:39:40 +0100</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>New Baggerspion</title>
+        <description>&lt;p&gt;I have set myself a challenge for 2017: write at least one blog post
+every week. Given that I only managed to write 11 in 2016, this should
+pose quite a challenge. Before &lt;em&gt;that&lt;/em&gt; challenge there was something
+else to tackle: &lt;a href=&quot;http://baggerspion.net&quot;&gt;baggerspion.net&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;historical-note&quot;&gt;Historical Note&lt;/h2&gt;
+
+&lt;p&gt;I have been bloggng for a while. I started when I was studying for my
+PhD, well over a decade ago now. Back then my department hosted my
+blog on crappy (even for the time), old Linux server called
+Hemswell. The blog was called “Green Eggs and Ham” back then. Don’t
+ask.&lt;/p&gt;
+
+&lt;p&gt;Honestly, then my memory gets fuzzy; there is a gap of a year or two
+before the first incarnation of Baggerspion. Baggerspion started life
+as a Wordpress blog. It was self-hosted on a Linux VM that also
+provided a &lt;a href=&quot;http://www.kolab.org&quot;&gt;Kolab Groupware&lt;/a&gt; server.&lt;/p&gt;
+
+&lt;p&gt;At the start of 2016 I decided to get rid of that VM and everything it
+did. Baggerspion email was migrated to Google and the blog to
+&lt;a href=&quot;http://blogger.com&quot;&gt;Blogger&lt;/a&gt; with it. Blogger, quite simply, it
+terrible.&lt;/p&gt;
+
+&lt;h2 id=&quot;something-new&quot;&gt;Something New&lt;/h2&gt;
+
+&lt;p&gt;So I decided that it was time for yet another (hopefully long-term)
+change: to move Baggerpsion to
+&lt;a href=&quot;http://pages.github.com&quot;&gt;GithubPages&lt;/a&gt;. This gives me an opportunity
+to learn some new tools (in the form of &lt;a href=&quot;http://travis-ci.org&quot;&gt;Travis
+CI&lt;/a&gt;, and &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;). I am
+actually writing this post before the new site is even ready. Having a
+“real” entry like this helps me to learn my new tools and to make sure
+the site looks right.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-involved&quot;&gt;What’s Involved?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Github Pages: for hosting&lt;/li&gt;
+  &lt;li&gt;Jekyll: for generating the site&lt;/li&gt;
+  &lt;li&gt;Travis CI: for quality control of builds&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;meet-the-new-baggerspion-same-as-the-old-baggerspion&quot;&gt;Meet The New Baggerspion, Same As The Old Baggerspion&lt;/h2&gt;
+
+&lt;p&gt;Contentwise, it’s business as usual. Baggerspion will continue to be
+my home for writing about software engineering (management),
+publishing weird visualisations of what’s goign on inside Free
+Software projects and generally striving to be interesting.&lt;/p&gt;
+
+&lt;p&gt;I am treating this as a completely new start. You can still find the
+old Baggerspion content &lt;a href=&quot;http://baggerspion.blogspot.com&quot;&gt;here&lt;/a&gt;. Once
+I have this post published, my first real content will be on the Crate
+1.0.x release.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 18 Dec 2016 21:00:00 +0100</pubDate>
+        <link>http://localhost:4000//2016/12/new-baggerspion/</link>
+        <guid isPermaLink="true">http://localhost:4000//2016/12/new-baggerspion/</guid>
+        
+        
+        <category>Baggerspion</category>
+        
+      </item>
+    
+  </channel>
+</rss>
