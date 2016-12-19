@@ -3,23 +3,28 @@ layout: default
 ---
 <h1>Posts</h1>
 <div class="main-post-list">
-
   <ol class="post-list">
     {% for post in paginator.posts %}
-      <li>
-        <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-	{% if post.header %}<img class="feed-header" src="{{ site.imgroot }}Headers/{{ post.header.src }}" alt="{{ post.header.desc }}">{% endif %}
+    <li>
+      <h3 class="post-list__post-title post-title">
+	<a href="{{site.baseurl }}{{ post.url | remove_first: '/' }}" title="{{post.title }}">
+	  {{ post.title }}
+	</a>
+      </h3>
+
+      {% if post.header %}
+      <img class="feed-header" src="{{ site.imgroot }}Headers/{{post.header.src }}" alt="{{ post.header.desc }}">
+      {% endif %}
         <p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&hellip;</p>
-        <div class="post-list__meta"><time datetime="{{ post.date | date: "%-d %b %Y" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time> &#8226; <span class="post-meta__tags">on {% for tag in post.categories %}<a href="{{ site.baseurl }}categories/#{{ tag }}">{{ tag }}</a> {% endfor %}</span></div>
+        <div class="post-list__meta">
+	  <time datetime="{{ post.date | date: "%-d %b %Y" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time> &#8226; <span class="post-meta__tags">on {% for tag in post.categories %}<a href="{{ site.baseurl }}categories/#{{ tag }}">{{ tag }}</a> {% endfor %}</span></div>
         <hr class="post-list__divider">
-      </li>
+    </li>
     {% endfor %}
   </ol>
-
-  <hr class="post-list__divider ">
 
   {% if paginator.previous_page or paginator.next_page %}
       {% include pagination.html %}
   {% endif %}
 
-</div>
+    </div>

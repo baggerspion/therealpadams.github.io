@@ -1683,6 +1683,8 @@ input[type="tel"] {
 		display: block;
 		margin-bottom: .4em; } }
 
+/* Crap that Paul added */
+
 .feed-header {
   width: 100%;
 }
