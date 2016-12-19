@@ -1687,4 +1687,18 @@ input[type="tel"] {
 
 .feed-header {
   width: 100%;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 1em 0;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+summary {
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+details p {
+  margin-top: 1rem;
 }
