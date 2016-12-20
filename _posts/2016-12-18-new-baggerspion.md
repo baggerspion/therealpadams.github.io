@@ -26,7 +26,7 @@ provided a [Kolab Groupware](http://www.kolab.org) server.
 
 At the start of 2016 I decided to get rid of that VM and everything it
 did. Baggerspion email was migrated to Google and the blog to
-[Blogger](http://blogger.com) with it. Blogger, quite simply, it
+[Blogger](http://blogger.com) with it. Blogger, quite simply, is
 terrible.
 
 ## Something New
