@@ -1104,7 +1104,9 @@ pre {
 
 .content-wrapper__inner {
 	margin: 0 10%;
-	padding: 50px 0; }
+	padding: 0;
+	padding-top: 50px;
+	padding-bottom: 50px; }
 
 .footer {
 	display: block;
@@ -1402,7 +1404,9 @@ nav {
 
 .pagination {
 	display: block;
-	margin: 0 0 4em 0; }
+	margin: 0;
+	margin-top: 50px;
+}
 
 .pagination__page-number {
 	margin: 0;
