@@ -1706,3 +1706,7 @@ summary {
 details p {
   margin-top: 1rem;
 }
+
+.panel-main__content .visible .navigation--social {
+    margin-left: 0;
+}
