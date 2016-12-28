@@ -1285,7 +1285,7 @@ hr {
 	margin-top: 10px; }
 
 .cover-navigation--social {
-	margin-left: 0px; }
+	margin-left: 0; }
 
 .cover-green {
 	background-color: rgba(21, 111, 120, 0.6);
@@ -1393,7 +1393,7 @@ nav {
 			opacity: 1; }
 
 .navigation--social {
-	margin-left: 1.5em; }
+	margin-left: 0; }
 	.navigation--social a {
 		padding: 6px 8px 6px 9px; }
 		.navigation--social a .label {
@@ -1705,8 +1705,4 @@ summary {
 
 details p {
   margin-top: 1rem;
-}
-
-.panel-main__content .visible .navigation--social {
-    margin-left: 0;
 }
