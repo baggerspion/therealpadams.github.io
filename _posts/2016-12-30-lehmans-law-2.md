@@ -34,14 +34,22 @@ Notice how there is no specific mention to how we should define
 hand or that adding *that feature* will cause the code to get out of
 hand. You can just feel that refactoring is required.
 
+<<<<<<< HEAD
 In my previous post I talked briefly about avoiding the temptation to
+=======
+In my previous post I talked briefly about avoiding the tempatation to
+>>>>>>> New blog post
 become a feature factory. One of the clear indicators that your agile
 project is heading in that direction is the dropping of systematic
 refactoring.
 
 ## Managing Technical Debt In Agile Projects
 
+<<<<<<< HEAD
 Engineers are very good a *feeling* their way through a codebase. They
+=======
+Engineers are very good a *feeling* theiy way through a codebase. They
+>>>>>>> New blog post
 can just tell that the code is getting gnarly (or will do). This
 feeling that something is wrong is almost always caused (at least in
 part) by the codebase's technical debt. I always think that technical
@@ -59,7 +67,11 @@ addressed. We do not ignore it, we do not avoid it, we get on with it.
 
 Scrum (and really all agility) is about the constant maintenance of
 technical debt. It is far too easy to think about the technical debt
+<<<<<<< HEAD
 solely in terms of the user stories (Feature Factory alert) while
+=======
+solely in terms of the user stories (Feature Factory alert) whilt
+>>>>>>> New blog post
 ignoring all the opportunity we are afforded to handle it.
 
 I'm a firm believer that every Scrum meeting is really just a planning
@@ -83,7 +95,11 @@ The technical debt for the user story is a crucial consideration:
 
 The latter question really is worth considering. You do not want to
 really plan for leaving technical debt behind, but the simple fact is
+<<<<<<< HEAD
 there is always the opportunity that you might.
+=======
+there is always the opprotunity that you might.
+>>>>>>> New blog post
 
 Please, please, please remember my golden rule for this meeting:
 
@@ -102,7 +118,7 @@ have a high likelihood of increasing technical debt?
 #### Planning 2
 
 By now, hopefully, technical debt for each user story has been
-discussed during the Estimation meeting. Now it's time to plan how to
+discussed during the Estimation meeting. Now it’s time to plan how to
 handle it. In the same way that the team needs to plan who is going to
 code which aspects of the user story, they should also take time to
 plan any technical debt maintenance required:
@@ -113,7 +129,7 @@ plan any technical debt maintenance required:
 #### Review
 
 Want to build up an awesome relationship with your Product Owner? Be
-brutally honest with them during Review. 
+brutally honest with them during Review.
 
 A Feature Factory environment will focus this meeting on showing that
 the completed user stories meet their definition of done and any
@@ -122,21 +138,21 @@ being tracked? The Review meeting is the perfect opportunity to
 flag-up any technical debt that has been introduced.
 
 If the purpose of your Review meetings is simply to have your user
-stories accepted, you're kinda getting it wrong. Review is really
+stories accepted, you’re kinda getting it wrong. Review is really
 about gaining feedback from the Product Owner on your work. But Review
 is also a planing meeting: has your work during the sprint flagged the
-need for some additional, future user story for the backlog? Be
-honest with the Product Owner about any increase in technical debt; it
-may warrant a specific user story to refactor it out later.
+need for some additional, future user story for the backlog? Be honest
+with the Product Owner about any increase in technical debt; it may
+warrant a specific user story to refactor it out later.
 
 ### Little and Often
 
-So how do we handle Lehman's Second Law in agile projects? Little and
-often. In the "good ol' days" each release would end with a fairly
+So how do we handle Lehman’s Second Law in agile projects? Little and
+often. In the “good ol’ days” each release would end with a fairly
 substantial set of QA phases.
 
 Contrary to popular agile opinion, I can come up with some decent
-reasons why having *some* dedicated QA at the end of a release cycle
-is a good thing. What's important however, is that the general approach
+reasons why having some dedicated QA at the end of a release cycle is
+a good thing. What’s important however, is that the general approach
 agile teams should be taking is to constantly be mindful of their
 technical debt and constantly put in the effort to reduce it.
