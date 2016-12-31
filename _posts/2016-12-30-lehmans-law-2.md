@@ -34,30 +34,26 @@ Notice how there is no specific mention to how we should define
 hand or that adding *that feature* will cause the code to get out of
 hand. You can just feel that refactoring is required.
 
-<<<<<<< HEAD
 In my previous post I talked briefly about avoiding the temptation to
-=======
-In my previous post I talked briefly about avoiding the tempatation to
->>>>>>> New blog post
 become a feature factory. One of the clear indicators that your agile
 project is heading in that direction is the dropping of systematic
 refactoring.
 
 ## Managing Technical Debt In Agile Projects
 
-<<<<<<< HEAD
-Engineers are very good a *feeling* their way through a codebase. They
-=======
-Engineers are very good a *feeling* theiy way through a codebase. They
->>>>>>> New blog post
+Engineers are very good a feeling their way through a codebase. They
 can just tell that the code is getting gnarly (or will do). This
 feeling that something is wrong is almost always caused (at least in
-part) by the codebase's technical debt. I always think that technical
+part) by the codebase’s technical debt. I always think that technical
 debt is subjective and hard to pin down. However, in short: technical
 debt is the corners that have been cut, the undelivered promises the
 issues that have been swept under the carpet.
 
-Come on, admit it, **we all do it**
+Come on, admit it, **we all do it**.
+
+The trick to handling technical debt inside an agile environment is to
+admit to ourselves that it is always there and always need to be
+addressed. We do not ignore it, we do not avoid it, we get on with it.
 
 The trick to handling technical debt inside an agile environment is to
 admit to ourselves that it is always there and always need to be
@@ -67,16 +63,12 @@ addressed. We do not ignore it, we do not avoid it, we get on with it.
 
 Scrum (and really all agility) is about the constant maintenance of
 technical debt. It is far too easy to think about the technical debt
-<<<<<<< HEAD
 solely in terms of the user stories (Feature Factory alert) while
-=======
-solely in terms of the user stories (Feature Factory alert) whilt
->>>>>>> New blog post
 ignoring all the opportunity we are afforded to handle it.
 
-I'm a firm believer that every Scrum meeting is really just a planning
+I’m a firm believer that every Scrum meeting is really just a planning
 meeting (just with different scopes). Similarly, almost every Scrum
-meeting is an opportunity to handle technical debt.
+meeting is an opportunity to handle technical debt
 
 #### Estimation
 
@@ -95,11 +87,7 @@ The technical debt for the user story is a crucial consideration:
 
 The latter question really is worth considering. You do not want to
 really plan for leaving technical debt behind, but the simple fact is
-<<<<<<< HEAD
 there is always the opportunity that you might.
-=======
-there is always the opprotunity that you might.
->>>>>>> New blog post
 
 Please, please, please remember my golden rule for this meeting:
 
