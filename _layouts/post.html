@@ -17,6 +17,6 @@ layout: default
     {% endif %}
     {{ content }}
   </section>
-  {% if page.comments != false and site.disqus_shortname %}<hr /><h2>Comments</h2><section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+  {% if page.comments != false and site.disqus_shortname %}<hr /><h2>Comments</h2><div id="disqus_thread">
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><!-- /#disqus_thread -->{% endif %}
 </article>
-{% if page.comments != false %}{% include disqus.html %}{% endif %}
