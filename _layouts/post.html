@@ -11,8 +11,8 @@ layout: default
 
   <section class="post">
     {% if page.header %}
-    <p>
-      <img itemprop="image" src="{{ site.imgroot }}Headers/{{ page.header.src }}" alt="{{ page.header.desc }}">
+    <p itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+      <img itemprop="url" src="{{ site.imgroot }}Headers/{{ page.header.src }}" alt="{{ page.header.desc }}">
     </p>
     {% endif %}
     {{ content }}
