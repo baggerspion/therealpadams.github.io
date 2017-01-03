@@ -1,18 +1,18 @@
 ---
 layout: default
 ---
-<article class="post-container post-container--single">
+<article itemid="{{ site.url }}{{ page.url}}" itemscope itemtype="http://schema.org/BlogPosting" class="post-container post-container--single">
   <header class="post-header">
     <div class="post-meta">
-      <time datetime="{{ page.date | date: "%-d %b %Y" }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time> | <span class="post-meta__tags">Categories: {% for tag in page.categories %}<a href="{{ site.baseurl }}categories/#{{ tag }}">{{ tag }}</a> {% endfor %}</span> | <span class="disqus-comment-count post-meta__count" data-disqus-url="{{ site.url }}{{ page.url }}"></span>
+      <time itemprop="datePublished" datetime="{{ page.date | date: "%-d %b %Y" }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time> | <span class="post-meta__tags">Categories: {% for tag in page.categories %}<a href="{{ site.baseurl }}categories/#{{ tag }}">{{ tag }}</a> {% endfor %}</span> | <span class="disqus-comment-count post-meta__count" data-disqus-url="{{ site.url }}{{ page.url }}"></span>
     </div>
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 itemprop="headline" class="post-title">{{ page.title }}</h1>
   </header>
 
   <section class="post">
     {% if page.header %}
     <p>
-      <img src="{{ site.imgroot }}Headers/{{ page.header.src }}" alt="{{ page.header.desc }}">
+      <img itemprop="thumbnail" src="{{ site.imgroot }}Headers/{{ page.header.src }}" alt="{{ page.header.desc }}">
     </p>
     {% endif %}
     {{ content }}
