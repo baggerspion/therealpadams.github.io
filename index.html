@@ -16,9 +16,14 @@ layout: default
       </h3>
 
       {% if post.header %}
-      <img itemprop="image" itemscope itemtype="http://schema.org/ImageObject" src="{{ site.imgroot }}Headers/{{post.header.src }}" alt="{{ post.header.desc }}">
+      <p itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+	<img itemprop="url" src="{{ site.imgroot }}Headers/{{ post.header.src }}" alt="{{ page.header.desc }}">
+	<meta itemprop="width" content="1000">
+	<meta itemprop="height" content="300">
+      </p>
       {% endif %}
-        <p itemprop="description" class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&hellip;</p>
+      
+      <p itemprop="description" class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&hellip;</p>
         <div class="post-list__meta">
 	  <time itemprop="datePublished" datetime="{{ post.date | date: "%-d %b %Y" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time> | <span class="post-meta__tags">Categories: {% for tag in post.categories %}<a href="{{ site.baseurl }}categories/#{{ tag }}">{{ tag }}</a> {% endfor %}</span></div>
         <hr class="post-list__divider">
