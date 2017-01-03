@@ -16,7 +16,7 @@ layout: default
       </h3>
 
       {% if post.header %}
-      <img itemprop="image" src="{{ site.imgroot }}Headers/{{post.header.src }}" alt="{{ post.header.desc }}">
+      <img itemprop="image" itemtype="http://schema.org/ImageObject" src="{{ site.imgroot }}Headers/{{post.header.src }}" alt="{{ post.header.desc }}">
       {% endif %}
         <p itemprop="description" class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&hellip;</p>
         <div class="post-list__meta">
