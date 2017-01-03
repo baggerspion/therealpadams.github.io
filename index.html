@@ -8,6 +8,7 @@ layout: default
   <ol class="post-list">
     {% for post in paginator.posts %}
     <li itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <meta itemprop="author" content="Paul J. Adams" itemtype="http://schema.org/Person">
       <h3 itemprop="name" class="post-list__post-title post-title">
 	<a itemprop="url" href="{{site.baseurl }}{{ post.url | remove_first: '/' }}" title="{{post.title }}">
 	  {{ post.title }}
@@ -15,7 +16,7 @@ layout: default
       </h3>
 
       {% if post.header %}
-      <img src="{{ site.imgroot }}Headers/{{post.header.src }}" alt="{{ post.header.desc }}">
+      <img itemprop="image" src="{{ site.imgroot }}Headers/{{post.header.src }}" alt="{{ post.header.desc }}">
       {% endif %}
         <p itemprop="description" class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&hellip;</p>
         <div class="post-list__meta">
