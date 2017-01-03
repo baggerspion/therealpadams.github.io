@@ -2,6 +2,8 @@
 layout: default
 ---
 <article itemid="{{ site.url }}{{ page.url}}" itemscope itemtype="http://schema.org/BlogPosting" class="post-container post-container--single">
+  <meta itemprop="author" content="Paul J. Adams">
+  <meta itemprop="publisher" content="Baggerspion">
   <header class="post-header">
     <div class="post-meta">
       <time itemprop="datePublished" datetime="{{ page.date | date: "%-d %b %Y" }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time> | <span class="post-meta__tags">Categories: {% for tag in page.categories %}<a href="{{ site.baseurl }}categories/#{{ tag }}">{{ tag }}</a> {% endfor %}</span> | <span class="disqus-comment-count post-meta__count" data-disqus-url="{{ site.url }}{{ page.url }}" itemprop="commentCount"></span>
@@ -13,6 +15,8 @@ layout: default
     {% if page.header %}
     <p itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
       <img itemprop="url" src="{{ site.imgroot }}Headers/{{ page.header.src }}" alt="{{ page.header.desc }}">
+      <meta itemprop="width" content="1000">
+      <meta itemprop="height" content="300">
     </p>
     {% endif %}
     {{ content }}
