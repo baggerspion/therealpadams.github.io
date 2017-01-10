@@ -25,7 +25,7 @@ layout: default
       
       <p itemprop="description" class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&hellip;</p>
         <div class="post-list__meta">
-	  <time itemprop="datePublished" datetime="{{ post.date | date: "%-d %b %Y" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time> | <span class="post-meta__tags">Categories: {% for tag in post.categories %}<a href="{{ site.baseurl }}categories/#{{ tag }}">{{ tag }}</a> {% endfor %}</span></div>
+	  <time itemprop="datePublished" datetime="{{ post.date | date: "%-d %b %Y" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time> | <span class="post-meta__tags">Categories: {% for tag in post.categories %}{% if forloop.last %}<a href="{{ site.baseurl }}categories/#{{ tag }}">{{ tag }}</a>{% else %}<a href="{{ site.baseurl }}categories/#{{ tag }}">{{ tag }}, </a>{% endif %}{% endfor %}</span></div>
         <hr class="post-list__divider">
     </li>
     {% endfor %}
