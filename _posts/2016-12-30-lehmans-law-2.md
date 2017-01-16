@@ -41,15 +41,19 @@ refactoring.
 
 ## Managing Technical Debt In Agile Projects
 
-Engineers are very good a *feeling* their way through a codebase. They
+Engineers are very good a feeling their way through a codebase. They
 can just tell that the code is getting gnarly (or will do). This
 feeling that something is wrong is almost always caused (at least in
-part) by the codebase's technical debt. I always think that technical
+part) by the codebase’s technical debt. I always think that technical
 debt is subjective and hard to pin down. However, in short: technical
 debt is the corners that have been cut, the undelivered promises the
 issues that have been swept under the carpet.
 
-Come on, admit it, **we all do it**
+Come on, admit it, **we all do it**.
+
+The trick to handling technical debt inside an agile environment is to
+admit to ourselves that it is always there and always need to be
+addressed. We do not ignore it, we do not avoid it, we get on with it.
 
 The trick to handling technical debt inside an agile environment is to
 admit to ourselves that it is always there and always need to be
@@ -62,9 +66,9 @@ technical debt. It is far too easy to think about the technical debt
 solely in terms of the user stories (Feature Factory alert) while
 ignoring all the opportunity we are afforded to handle it.
 
-I'm a firm believer that every Scrum meeting is really just a planning
+I’m a firm believer that every Scrum meeting is really just a planning
 meeting (just with different scopes). Similarly, almost every Scrum
-meeting is an opportunity to handle technical debt.
+meeting is an opportunity to handle technical debt
 
 #### Estimation
 
@@ -102,7 +106,7 @@ have a high likelihood of increasing technical debt?
 #### Planning 2
 
 By now, hopefully, technical debt for each user story has been
-discussed during the Estimation meeting. Now it's time to plan how to
+discussed during the Estimation meeting. Now it’s time to plan how to
 handle it. In the same way that the team needs to plan who is going to
 code which aspects of the user story, they should also take time to
 plan any technical debt maintenance required:
@@ -113,7 +117,7 @@ plan any technical debt maintenance required:
 #### Review
 
 Want to build up an awesome relationship with your Product Owner? Be
-brutally honest with them during Review. 
+brutally honest with them during Review.
 
 A Feature Factory environment will focus this meeting on showing that
 the completed user stories meet their definition of done and any
@@ -122,21 +126,21 @@ being tracked? The Review meeting is the perfect opportunity to
 flag-up any technical debt that has been introduced.
 
 If the purpose of your Review meetings is simply to have your user
-stories accepted, you're kinda getting it wrong. Review is really
+stories accepted, you’re kinda getting it wrong. Review is really
 about gaining feedback from the Product Owner on your work. But Review
 is also a planing meeting: has your work during the sprint flagged the
-need for some additional, future user story for the backlog? Be
-honest with the Product Owner about any increase in technical debt; it
-may warrant a specific user story to refactor it out later.
+need for some additional, future user story for the backlog? Be honest
+with the Product Owner about any increase in technical debt; it may
+warrant a specific user story to refactor it out later.
 
 ### Little and Often
 
-So how do we handle Lehman's Second Law in agile projects? Little and
-often. In the "good ol' days" each release would end with a fairly
+So how do we handle Lehman’s Second Law in agile projects? Little and
+often. In the “good ol’ days” each release would end with a fairly
 substantial set of QA phases.
 
 Contrary to popular agile opinion, I can come up with some decent
-reasons why having *some* dedicated QA at the end of a release cycle
-is a good thing. What's important however, is that the general approach
+reasons why having some dedicated QA at the end of a release cycle is
+a good thing. What’s important however, is that the general approach
 agile teams should be taking is to constantly be mindful of their
 technical debt and constantly put in the effort to reduce it.
