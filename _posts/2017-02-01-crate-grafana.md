@@ -22,7 +22,7 @@ polished. Instead, it was part of my handover as I was leaving
 Crate.io. I created this video so that I could pass on some of my
 knowledge of how to demo this tooling...
 
-{% include youtube.html id=ncyNWaUXcZo %}
+{% include youtube.html id="ncyNWaUXcZo" %}
 
 ...as you can see/hear this rough cut (literally my second take)
 includes all the pauses, "errrr" and nerves ticks that come alone with
