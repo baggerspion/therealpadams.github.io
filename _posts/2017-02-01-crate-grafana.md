@@ -31,4 +31,4 @@ an unprepared demo.
 Typically I would want to produce/watch numerous drafts like this
 before publishing.
 
-I wonder what the final version looks like.
+I wonder what the final version will look like.
