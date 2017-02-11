@@ -82,7 +82,7 @@ My original mission was to see if I could reduce the enormous 600mb+
 image size. Given my lack of experience, I would have been happy to
 shave off a few mb. I never expected this...
 
-[![Docker Image Size Comparison]({{ site.imgroot }}Images/image-size.png)]({{ site.imgroot }}Images/image-size.png)
+[![Docker Image Size Comparison](http://res.cloudinary.com/baggerspion/image/upload/v1486835095/Images/image-size.png)](http://res.cloudinary.com/baggerspion/image/upload/v1486835095/Images/image-size.png)
 
 My image (at the top) represents a 40% disk usage reduction over the
 official image!
