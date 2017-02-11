@@ -29,7 +29,7 @@ Easy enough to get hold of: ```docker pull nextcloud```
 
 Simply running this command immediately gave me an idea of where I
 might learn a ting or two: the image is over 600mb! That is
-massive. Unnecesarilly massive.
+massive. Unnecessarily massive.
 
 So there was my challenge:
 
@@ -93,7 +93,7 @@ Most of the size benefits came from using Alpine as my base image, I'm
 sure. I *suspect* there was some benefit in ditching pecl, too. Here
 be dragons...
 
-In order to ditch pecl, I used Apline native packages for the PHP
+In order to ditch pecl, I used Alpine native packages for the PHP
 extensions. Sadly, two of these packages
 ([redis](https://pkgs.alpinelinux.org/package/edge/testing/x86_64/php7-redis)
 and
