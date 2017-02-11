@@ -119,5 +119,5 @@ So this work is not entirely finished:
 
 The stuff *I* can do will really not take very long; I should get that
 wrapped up in the next couple of days. However, we will need to wait
-for Alpine Edge to stabilise before I could actual recommend anyone
+for Alpine Edge to stabilise before I could actually recommend anyone
 using my Dockerfile in production.
