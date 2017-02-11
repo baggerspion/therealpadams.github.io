@@ -72,9 +72,10 @@ at all) it cleans up sources after building them.
 
 My Dockerfile can be found on
 [Github](https://github.com/therealpadams/nextcloud-docker/blob/master/Dockerfile). At
-this stage it is still not complete enough to use, so I am not going
-to make it available on [Docker Hub](https://hub.docker.com). That
-said, even incomplete, there are some nice results:
+this stage it is still not complete enough to use (although it does
+provide a fully-working Nextcloud instance), so I am not going to make
+it available on [Docker Hub](https://hub.docker.com). That said, even
+incomplete, there are some nice results:
 
 ### Huge Size Reduction
 
