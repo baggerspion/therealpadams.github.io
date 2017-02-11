@@ -85,7 +85,7 @@ shave off a few mb. I never expected this...
 
 [![Docker Image Size Comparison](http://res.cloudinary.com/baggerspion/image/upload/v1486835095/Images/image-size.png)](http://res.cloudinary.com/baggerspion/image/upload/v1486835095/Images/image-size.png)
 
-My image (at the top) represents a 40% disk usage reduction over the
+My image (at the top) represents a ~45% disk usage reduction over the
 official image!
 
 ### Not Production Ready
