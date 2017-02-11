@@ -11,7 +11,7 @@ Ever since its roots as ownCloud within the [KDE](http://www.kde.org)
 project, I have always been fan of Nextcloud. On a personal level, I
 am also a fan of the team behind it. Back in my [Kolab
 Systems](http://kolabsys.com) days I even advocated an integration of
-Nextcloud (then owCloud) and Kolab as strong, Free alternative to
+Nextcloud (then ownCloud) and Kolab as strong, Free alternative to
 Sharepoint/Google Apps.
 
 Since I am currently [looking for new work](/hire/index.html) I wanted
