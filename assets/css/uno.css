@@ -1734,3 +1734,19 @@ dd {
   margin: 0 0 0 120px;
   padding: 0 0 0.5em 0;
 }
+
+.social-share ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.social-share ul li { 
+  display: inline; 
+}
+
+.social-share ul li a {
+  text-decoration: none;
+  padding: .2em 1em;
+}
