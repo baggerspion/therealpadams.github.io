@@ -1735,11 +1735,19 @@ dd {
   padding: 0 0 0.5em 0;
 }
 
+.social-share h2 {
+  float: left;
+  display: inline;
+  font-size: 1em;
+  margin: 0;
+}
+
 .social-share ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
+  display: inline;
 }
 
 .social-share ul li { 
@@ -1748,5 +1756,20 @@ dd {
 
 .social-share ul li a {
   text-decoration: none;
-  padding: .2em 1em;
+  padding-left: 20px;
+}
+
+.social-share a i.icon-social-twitter {
+  color: #1da1f2;
+}
+
+.social-share a i.icon-social-facebook {
+  color: #3b5898;
+}
+
+.social-share a i.icon-social-linkedin {
+  color: #0077b5;
+}
+ .social-share a i.icon-social-google-plus {
+  color: #e25440;
 }
