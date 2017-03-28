@@ -1,5 +1,5 @@
 --- 
-title: Rush Hour Berlin: A Public Transport Survival Guide 
+title: Rush Hour Berlin - A Public Transport Survival Guide 
 layout: post 
 date: 2016-03-19 19:15 
 categories: [Berlin, German] 
