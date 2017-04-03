@@ -74,3 +74,6 @@ hands of the service developer.
 
 One of the super-sexy features of Habitat is reconfiguration of the
 service _at runtime_! That's what I'm looking into next.
+
+In the meantime, please feel free to checkout my work [over on
+GitHub](https://github.com/therealpadams/habitat-hello-world).
