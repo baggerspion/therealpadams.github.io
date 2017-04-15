@@ -28,12 +28,12 @@ Writing a plan for CrateDB did not turn out to be too difficult:
 - There was an existing core/elasticsearch plan already in place
 - Crate.io provides plenty documentation on how to configure CrateDB
 
-I continue to be a hige fan of CrateDB and so, if I was going to write
+I continue to be a huge fan of CrateDB and so, if I was going to write
 a decent Habitat plan for CrateDB, it had to be an *epic* plan for
 CrateDB and support as much of the CrateDB config as I could.
 
 Of course, before getting to the config, I needed to get a plan
-writen. Given I had an official ElasticSearch plan to hand, this was
+written. Given I had an official ElasticSearch plan to hand, this was
 never going to be too hard. Take a look...
 
 {% highlight bash %}
@@ -104,6 +104,69 @@ shipped inside the CrateDB tarball:
   (e.g. "index.number_of_replicas" in the tarball, versus
   "number_of_replicas" in the docs).
 
-I dedcided to produce a template that follows the online docs very
+I decided to produce a template that follows the online docs very
 closely. I know there are definitely some config options missing from
 those docs but, for now, I will leave them out of my template.
+
+Here's a little teaser of the resulting template:
+
+{% highlight bash %}
+{% raw %}
+###################### CrateDB Configuration ########################
+#
+# Notes: https://crate.io/docs/reference/en/latest/configuration.html
+#
+#####################################################################
+
+# Table Settings
+
+number_of_replicas: {{cfg.table.number_of_replicas}}
+refresh_interval: {{cfg.table.refresh_interval}}
+
+## Table: Blocks
+
+blocks.read_only: {{cfg.table.blocks.read_only}}
+blocks.read: {{cfg.table.blocks.read}}
+blocks.write: {{cfg.table.blocks.write}}
+blocks.metadata: {{cfg.table.blocks.metadata}}
+
+## Table: Translog
+
+translog.flush_threshold_ops: {{cfg.index.translog.flush_threshold_ops}}
+translog.flush_threshold_size: {{cfg.table.translog.flush_threshold_size}}
+translog.flush_threshold_period: {{cfg.index.translog.flush_threshold_period}}
+translog.disable_flush: {{cfg.index.translog.disable_flush}}
+translog.interval: {{cfg.index.translog.interval}}
+translog.sync_interval: {{cfg.table.translog.sync_interval}}
+{% endraw %}
+{% endhighlight %}
+
+I say "little" teaser because, as you'll see from the CrateDB docs,
+this really is a small fraction of what is configurable for
+CrateDB. Creating all of the config templates took significantly
+longer than writing the plan itself.
+
+I guess this is common.
+
+## Build It, Run It
+
+No rocket science here:
+
+- Enter the Habitat studio
+- Build
+- Export
+- Run
+
+{% include asciinema.html file="asciicast-113554.json" %}
+
+The resulting Docker image is kinda large at ~420mb. That's roughly
+twice the size of CrateDB's official image on [Docker
+Hub](https://hub.docker.com/_/crate/). I'm hoping this is a simple
+case of PEBCAK and that I'll fix this as I learn more about Habitat.
+
+## What's Next?
+
+Soon I will publish this plan for folks to play with. Before then, I
+need to investigate the weird discrepancies around the config. Once
+that is done, I will return to this topic and look into
+building/configuring CrateDB clusters using Habitat.
