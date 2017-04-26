@@ -133,5 +133,5 @@ I'm really not sure how elegant, or not, this solution is. I'm happy
 enough that it works.
 
 A big shout-out to the maintainers of the [CrateDB
-Dockerfile](c49a3334e5e72ba9f1f55c23f05bd88b/Dockerfile) from whom I
-lifted the core ideas for this approach.
+Dockerfile](https://github.com/crate/docker-crate/blob/2b402ff0c49a3334e5e72ba9f1f55c23f05bd88b/Dockerfile)
+from whom I lifted the core ideas for this approach.
