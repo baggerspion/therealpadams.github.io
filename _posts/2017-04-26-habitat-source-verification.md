@@ -60,7 +60,7 @@ provided it.
 
 One of the most common solutions for the "can I trust where this came
 from?" question is for the producer of the source file to create a
-signature for the file susing GnuPG. If you are new to GnuPG and file
+signature for the file using GnuPG. If you are new to GnuPG and file
 signing, you can learn some more [over
 here](https://www.gnupg.org/gph/en/manual/x135.html).
 
@@ -109,7 +109,7 @@ actually carrying out the default behaviour. Then the magic kicks in.
 In the case of the do_download() overload, I have also called the
 download_file function in order to get my hands on the signature file
 that relates to the source I have downloaded. Use of downlod_file() in
-this manner is immportant: it ensures the file will not be downloaded
+this manner is important: it ensures the file will not be downloaded
 with every single build so long as the checksum is correct. It is,
 therefore, advisable to use download_file() over, say `curl` or
 `wget`.
@@ -117,8 +117,8 @@ therefore, advisable to use download_file() over, say `curl` or
 It is in the do_verify() overload where things get interesting. After
 performing the default verification, a temporary folder for stashing
 GnuPG config/output is created. Once this is done, it is super simple
-to grab the public key of the signer and test the signautre before
-trashing the tmporary config altogether. If either of these GnuPG
+to grab the public key of the signer and test the signature before
+trashing the temporary config altogether. If either of these GnuPG
 steps had not succeeded, the overall do_verify() would fail and, thus,
 the build, too.
 
