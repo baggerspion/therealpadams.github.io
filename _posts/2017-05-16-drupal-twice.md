@@ -85,7 +85,7 @@ base Drupal ("core"?) system, drush can be used to build a
 preconfigured site, including default user credentials and database
 configuration. This means we do not need to force the user of the
 Drupal package to go through the post-install install script. They'd
-be presented with a ready-made site, all configured and ready to.
+be presented with a ready-made site, all configured and ready to go.
 
 Providing most of the details needed to configure a Drupal site using
 drush is simple, we can simply dump the info in `default.toml` to be
@@ -105,7 +105,7 @@ other service to bind to:
 
 `hab start baggerspion/drupal --bind database:mysql.default`
 
-I will spare the full details on how binds work. There is [plenty
+I will spare the full details on how binds work. There is [plenty of
 documentation
 available](https://www.habitat.sh/docs/run-packages-binding/) on the
 Habitat website. What's important here is that, because I have bound
