@@ -69,13 +69,13 @@ Talks I will definitely be attending:
 - ["Python Applications with Habitat"](https://guidebook.com/guide/89460/event/15476612/)
 - ["Kubernetes & Habitat"](https://guidebook.com/guide/89460/event/15476612/)
 
-I _will_ be going to Franklin's for BBQ. At some point I am hoping to
-go to Elm Street Tattoo (legendary tattoo parlour, for the
-uninitiated) to take photos, if they will let me.
-
 On Thursday there is a day-long hackday. I will continue work on my
 Habitat packaging and will gladly give help to anyone starting out
 with the technology. Just come and poke me for help!
+
+I _will_ be going to Franklin's for BBQ. At some point I am hoping to
+go to Elm Street Tattoo (legendary tattoo parlour, for the
+uninitiated) to take photos, if they will let me.
 
 ## The Thanks
 
