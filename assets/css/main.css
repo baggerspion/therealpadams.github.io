@@ -54,3 +54,11 @@ pre.highlight code,
   border: 3px solid #fff;
   border-radius:100%;
 }
+
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baselne;
+  top: -0.5em;
+}
