@@ -16,10 +16,10 @@ found.
 
 ## Getting At The Code
 
-I've been involved with Habitat for a few months now. I have been luck
-in that my work with Habitat coincided with ChefConf, which gave me
-the opportunity to meet community members face-to-face. But had I not
-been to ChefConf, how might I gain an understanding for who the
+I've been involved with Habitat for a few months now. I have been
+lucky in that my work with Habitat coincided with ChefConf, which gave
+me the opportunity to meet community members face-to-face. But had I
+not been to ChefConf, how might I gain an understanding for who the
 high-bus-factor contributors are?
 
 In step the now-famous[^1] blue blobs.
@@ -39,7 +39,7 @@ enlarge):
 
 I've been staring at these blue blob visualisations for years now. As
 a result I think the things that I find interesting in them has become
-somehwat esoteric over time. That said, this visualisation has all the
+somewhat esoteric over time. That said, this visualisation has all the
 hallmarks I expect of a new project:
 
 - A period where only a few crucial individual get things kicked-off;
@@ -96,7 +96,7 @@ As always there is a huge amount of caveats attached to use of the
 blue blobs; most notably, way more happens within a community than
 simply what we see in Git. That said, these visualisations are a good
 way for finding out who are the key contributors to a
-community. PArticularly useful knowlege when you reach out for help
+community. Particularly useful knowledge when you reach out for help
 for the first time.
 
 Like I have done for [other communities in the
@@ -109,6 +109,6 @@ about it when it is all in place.
 
 ## Footnotes
 
-[^1]: Not really all that famous. If you want to make your own blue blobs visualiation, [the tool lives here](https://github.com/therealpadams/git-viz). One of these days I will get around to documenting it.
+[^1]: Not really all that famous. If you want to make your own blue blobs visualisation, [the tool lives here](https://github.com/therealpadams/git-viz). One of these days I will get around to documenting it.
 [^2]: I apologise for the use of inverted commas; yes, bots are people, too.
 [^3]: aka "HabitatOS"

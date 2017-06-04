@@ -5,7 +5,7 @@ baseurl: '/'
 google_analytics: 'UA-88654282-1'
 disqus_shortname: 'baggerspion'
 
-future: false
+future: true
 
 author:
   name: 'Paul Adams'
