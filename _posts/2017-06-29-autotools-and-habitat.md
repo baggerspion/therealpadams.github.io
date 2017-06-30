@@ -55,15 +55,15 @@ you'd really like to learn more about this toolchain, I highly
 recommend Alexandre Duret-Lutz’s [Autotools
 tutorial](https://www.lrde.epita.fr/~adl/autotools.html).
 
-What is important is to know that this is a highly commeon build
+What is important is to know that this is a highly common build
 system for those writing C/C++ and is pretty-much ubiquitous inside
-the GNU project... inlcuding many of the `core/*` libraries already
+the GNU project... including many of the `core/*` libraries already
 available in Habitat.
 
 ## Using Autotools Inside Habitat
 
 At the heart of your package building in Habitat is your `plan.sh`
-file. In this your provide all of your metadata for the package
+file. In this you provide all of your metadata for the package
 (e.g. packager's contact details, version number, origin etc), as well
 as the specific details of how to build the software.
 
@@ -71,7 +71,7 @@ Most of the fine details of how to go about actually running the build
 are contained within callback functions (e.g. `do_download()`,
 `do_build()`).
 
-If you want to get a fee for all of these callbacks and what they do,
+If you want to get a feel for all of these callbacks and what they do,
 run `hab plan init` and open the template `plan.sh` which has been
 provided inside the generated habitat package folder.
 
