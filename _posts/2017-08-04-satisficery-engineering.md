@@ -10,7 +10,7 @@ header:
 There is a particular dark art within engineering leadership. Nobody
 ever really teaches it; at least nobody ever taught it to me. And even
 when you think you've learned this dark art, there is always more to
-learn Because the lessons learned in the context of one team almost
+learn. Because the lessons learned in the context of one team almost
 never apply in the context of a different team.
 
 The dark art? Push.
@@ -52,7 +52,8 @@ work.
 - Low Effort, High Results Achievement
 
 Getting results! Great! Right? If the team is not being challenged in
-tis work, we risk boredom and all the bad "things" that come with it.
+its work, we risk boredom and all the bad "things" that come with
+it. Like corner cutting.
 
 - High Effort, Low Results Achievement
 
@@ -92,9 +93,9 @@ but, in general, it breeds laziness and/or boredom.
 - Too Much Results Achievement
 
 It's OK to fail. We all do it all the time. If all of your projects
-are running perfectly all the time teams can get complacent and corners
+are running perfectly all the time, teams can get complacent and corners
 can get cut. By introducing learning opportunities into work we open
-ourselves up to little failure of risk, but the trade-off is a
+ourselves up to a little risk of failure, but the trade-off is a
 even-more-skilled workforce.
 
 - Too Little Results Achievement
@@ -139,7 +140,7 @@ them with headspace for personal development.
 
 Ultimately the trick is to be mindful of the needs of both
 organisation and the team. Your best opportunity to apply Push is in
-planing sessions:
+planning sessions:
 
 - Does the organisation need specific results to a deadline? Push up
   effort and results orientation.
@@ -152,13 +153,13 @@ Ultimately, use your senses. Use your gut feeling. Push is not
 something to measure formally or enact explicitly. Just be mindful of
 it.
 
-This *does* we need to be careful with regards to nay metrics you
+This *does* mean we need to be careful with regards to any metrics you
 might be gathering. Most performance metrics assume that Push is in a
 fairly stable position on the Satisficery cartesian space. Certain
 changes to Push are guaranteed to affect certain metrics. So you need
-to take this into account. Don't let the numbers win! Gathering metrics
-is great (and important) but applying Push is about optimising the team
-*for now* not for some desired trend.
+to take this into account. Don't let the numbers win! Gathering
+metrics is great (and important) but applying Push is about optimising
+the team *for now* not for some desired trend.
 
 ## Getting Pushy and Satisficey
 
