@@ -8,7 +8,7 @@ header:
   desc: Jiuer us very satisfied by Gang Zhao (https://flic.kr/p/jUJuW)
 ---
 There is a particular dark art within engineering leadership. Nobody
-ever really teaches; at least nobody ever taught it to me. And even
+ever really teaches it; at least nobody ever taught it to me. And even
 when you think you've learned this dark art, there is always more to
 learn Because the lessons learned in the context of one team almost
 never apply in the context of a different team.
