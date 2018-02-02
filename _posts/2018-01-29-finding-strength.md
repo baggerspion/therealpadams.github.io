@@ -10,12 +10,12 @@ header:
 It's very satisfying being a member of the leadership team inside
 Zalando Search. As a group, the other leads have been very welcoming
 to me over the last 6 months and we have grown to become a genuine
-team. Work in progress[^1], but a team nonetheless. Recently, the
+team. Work in progress, but a team nonetheless. Recently, the
 bossman figured we were overdue for a team offsite to help solidify
 our team and to set out our plans for the coming year.
 
 As part of this meeting we all conducted the Gallup Strengthsfinder
-2.0[^2] exercise and presented our results to each other. Both for us
+2.0[^1] exercise and presented our results to each other. Both for us
 as individuals and for us as a team, this provide to be a very
 illuminating exercise.
 
@@ -72,7 +72,7 @@ focus your development time. For me, in order, these are:
 Having read my reports to understand these skills better, I was
 pleasantly surprised at how insightful the test had been. Synically, I
 had assumed the whole test was going to be nonsense and, at best "a
-bit of fun"[^3].
+bit of fun"[^2].
 
 Here's a quick overview of what these different skills mean; I am
 paraphrasing from the report for the sake of brevity. There are listed
@@ -150,6 +150,5 @@ professional development.
 
 ### Footnotes
 
-[^1]: We're "storming".
-[^2]: Yup, it's still cool to slap a "2.0" on things, folks!
-[^3]: For some definition of "fun".
+[^1]: Yup, it's still cool to slap a "2.0" on things, folks!
+[^2]: For some definition of "fun".
