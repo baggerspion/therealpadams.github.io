@@ -14,7 +14,7 @@ team. Work in progress, but a team nonetheless. Recently, the
 bossman figured we were overdue for a team offsite to help solidify
 our team and to set out our plans for the coming year.
 
-As part of this meeting we all conducted the Gallup Strengthsfinder
+As part of this meeting we all conducted the [Gallup Strengthsfinder](https://www.gallupstrengthscenter.com)
 2.0[^1] exercise and presented our results to each other. Both for us
 as individuals and for us as a team, this provide to be a very
 illuminating exercise.
