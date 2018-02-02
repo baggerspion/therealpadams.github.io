@@ -5,7 +5,7 @@ title: Evaluating My Strengths
 categories: [Leadership]
 header:
   src: strength.jpg
-  desc: "Strength" by Brett Curtis (https://flic.kr/p/ajbUvY)
+  desc: Strength by Brett Curtis (https://flic.kr/p/ajbUvY)
 ---
 It's very satisfying being a member of the leadership team inside
 Zalando Search. As a group, the other leads have been very welcoming
