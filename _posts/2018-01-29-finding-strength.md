@@ -4,15 +4,15 @@ date: 2018-01-29 13:00
 title: Evaluating My Strengths
 categories: [Leadership]
 header:
-  src:
-  desc:
+  src: strength.jpg
+  desc: "Strength" by Brett Curtis (https://flic.kr/p/ajbUvY)
 ---
 It's very satisfying being a member of the leadership team inside
 Zalando Search. As a group, the other leads have been very welcoming
 to me over the last 6 months and we have grown to become a genuine
 team. Work in progress[^1], but a team nonetheless. Recently, the
 bossman figured we were overdue for a team offsite to help solidify
-our teama and to set out our plans for the coming year.
+our team and to set out our plans for the coming year.
 
 As part of this meeting we all conducted the Gallup Strengthsfinder
 2.0[^2] exercise and presented our results to each other. Both for us
