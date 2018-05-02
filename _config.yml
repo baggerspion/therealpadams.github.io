@@ -1,6 +1,6 @@
 title: Baggerspion
 description: "Paul Adams' Wanderings Around Engineering, Free Software and Berlin"
-url: 'http://baggerspion.net'
+url: 'https://baggerspion.net'
 baseurl: '/'
 google_analytics: 'UA-88654282-1'
 disqus_shortname: 'baggerspion'
@@ -37,4 +37,4 @@ plugins: ['jekyll-paginate', 'jekyll-redirect-from']
 exclude: ['Gemfile', 'Gemfile.lock']
 include: ['_pages']
 
-imgroot: http://res.cloudinary.com/baggerspion/image/upload/
+imgroot: https://res.cloudinary.com/baggerspion/image/upload/
