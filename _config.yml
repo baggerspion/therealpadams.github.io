@@ -1,0 +1,6 @@
+title: Baggerspion
+description: "Paul Adams' Wanderings Around Engineering, Free Software and Berlin"
+url: 'https://baggerspion.net'
+baseurl: '/'
+
+remote_theme: qwtel/hydejack
