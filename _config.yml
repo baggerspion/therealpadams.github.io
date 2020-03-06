@@ -1,0 +1,83 @@
+title: Baggerspion
+owner: Paul Adams, PhD
+description: "Agile Engineering Lead & Open Source Expert"
+url: 'https://baggerspion.net'
+baseurl: '/'
+
+# Menu Content
+social:
+  linkedin: https://www.linkedin.com/in/pauljadams/
+  github: https://github.com/therealpadams
+  instagram: https://www.instagram.com/therealpadams/
+  twitter: https://twitter.com/therealpadams
+
+# Intro Content
+bio: >-
+  "I am a broadly-experienced engineering people lead with expertise in agility and open source; which have been the 
+  common themes throughout my career.I focus on people and process and enjoy working with engineers who are not afraid 
+  to take risks in the name of delighting end users. Most recently, I have enjoyed working as a lead-of-leads and 
+  developing strategies for larger teams of engineers."
+  
+info:
+  block1:
+    title: "Open Source & InnerSource"
+    text: "Some content here"
+  block2:
+    title: "Agilty & Servant Leadership"
+    text: > 
+      "I have over 15 years of experience as agile practitioner and team coach. While formally trained as a ScrumMaster, I
+      care more about agility. I enjoy beuilding teams which are culturally agile and not just functionally agile."
+
+# Testemonial Content
+references:
+  - name: "Grigor Ambrumyan"
+    image: 'grigor.jpg'
+    description: "Few people have the opportunity to report to a manager who is also a coach and mentor—but I did when he was my Engineering Manager at Wayfair. He joined the team during a very tough project and in a very short period, he helped to improve productivity and deliver everything on time! Paul is a very technical person, he does not hesitate to code or give constructive feedback on the code/design! Any employee would be lucky to have Paul as a manager."
+    affiliation: "Senior Software Engineer, Wayfair"
+  - name: "Thomas Richter"
+    image: 'thomas.jpg'
+    description: "Fortunately we chose Paul as our VP Engineering at Swarm64 and we got a colleague passionate for this role yet willing and capable to help in so many other aspects. In addition to a strong and proven track record as an engineering lead and VP, Paul has extensive hands-on experience in strategy development, the Open Source ecosystem, entrepreneurship and company building. His broad network of business relationships was able to help us with tough challenges and is a testament to his excellent character and style - it is great fun to work with Paul. He takes personal development very seriously and goes the extra mile to stay current with major industry trends, best practices and agile management techniques. We value his ability to contribute to the success of the company in so many different ways and his style to just step in and deliver with skill and high quality."
+    affiliation: "Founder & CEO, Swarm64"
+  - name: "Ferit Topcu"
+    image: 'ferit.jpg'
+    description: "When I first met Paul last year at the Open Source Summit, it was immediately clear that he is a great person to work with. We collaborated on different Open Source topics, interviewed the first new members of the Zalando Open Source Team. We also discussed new initiatives, improvements and how to make Zalando Projects more successful. Within a short period of time, Paul created a great vision, streamlined the process, created a much more inclusive review process and helped to improve the quality of the projects significant. Additionally, he helps developers to promote their projects and connect with external ones. One of the best Lead’s I’ve met during my career (5+ years). He combines the three most important aspects one expects from a Team Lead. A deep technical knowledge, a great mentor and leader towards a shared goal."
+    affiliation: "Senior Software Engineer, Zalando"
+  - name: "Dr. Mikio Braun"
+    image: 'mikio.jpg'
+    description: "Paul and I worked very closely together as engineering leads in Zalando's Search department. Paul is one of the most experienced and effective leads I have worked with. I think what makes Paul so great is his strong background in agile methodology, technical expertise, and a very human centric approach to management. He has extensive experience working as a certified scrum master, which he now can leverage to help teams work effectively. He has deep technical expertise in technologies as divers as C++, Java or Scala, and elasticsearch, and distributed large scale enterprise systems (the search cluster his team managed provided the search for all of Zalando's website and apps). Paul is also passionate about open source and easily brings a community oriented approach to work to motivate people, and bring purpose to teams."
+    affiliation: "Staff Data Scientist, GetYourGuide"
+  - name: "Aditya Varun Chadha"
+    image: 'adi.jpg'
+    description: "It's been an utter pleasure, honor, and learning experience to have had Paul as our Engineering Lead, even though for a relatively short stint of about nine months. This was a transformational period for our team. It is my belief that we sailed through and emerged in an extremely strong position significantly due to Paul's superlative clarity about roles, responsibilities, ownership, and managing team dynamics. Paul has a deep understanding of core technology, which in combination with his leadership acumen is hard to top. I looked to Paul on many occasions to spar about core technology decisions, and the conversation was always pertinent and enriching for me. I call his the tough-love management style, of which I think Paul is a master. You can fool all of the people some of the time, some of the people all of the time, but you can't fool Paul 😃 and as a result, Paul is a great ally to have on any technical team."
+    affiliation: "Engineering & Science for Search, Relevance and Discovery"
+  - name: "Christian Lutz"
+    image: 'christian.jpg'
+    description: "Paul builds and nurtures engineering teams. I hired Paul early in 2016; he was to help grow Crate’s engineering and, in particular, our team in Berlin. During his time at Crate Paul has delivered on both of these, building an engineering team that trusts him. While also working closely with the product team, Paul played his part in the successful release of CrateDB v1 and we wish him all the best on his next venture. If your engineering team needs a people leader with a strong background in agility, you would be lucky to work with Paul."
+    affiliation: "Founder & CEO, Crate.io"
+  - name: "Jessica Rose"
+    image: 'jess.jpg'
+    description: "I was lucky enough to work with Paul for a short time while I was contracting with Crate.io. During his time with Crate Paul built an incredible distributed engineering team of diverse talents and led them through their development and launch of open source distribted SQL database. Paul is an incredible leader, drawing from an interest in servant leadership. He communicates clearly across teams with diverse language skills and perspectives. I can unreservedly recommend Paul for any tech leadership role that involves the chance to foster and nurture talent."
+    affiliation: "Technical Outreach"
+  - name: "Marios Trivyzas"
+    image: 'marios.jpg'
+    description: "I had the pleasure to work with Paul in Crate.io where he was my Engineering Manager. He has managed to build an awesome team with wide diversity of excellent engineers due to his abilities to choose the people that make a great fit and to create an excellent atmosphere in office. He has always worked in a manner of consulting the engineering teams and help improve productivity rather than micromanage and force processes which is really hard to find in the IT world."
+    affiliation: "Elasticsearch Engineer, SQL at Elastic"
+  - name: "Meriam Kharbat"
+    image: 'meriam.jpg'
+    description: "When I think about the people that have made a positive impact on my career, I think of Paul. As an engineering manager, Paul always tries to involve the team in setting up the scrum process and taking ownership of it. As a developer myself, one thing I specifically appreciate is that Paul praises self-organisation and does not micromanage. He always ensured that we were on track and headed in the right direction. It is a joy in every way to work with Paul, I am grateful for the time we were able to work together."
+    affiliation: "Software Engineer, Field Intelligence Inc"
+  - name: "Mathias Hasselmann"
+    image: 'mathias.jpg'
+    description: >
+      "Agile project management, team building, team development: This topics are Paul's passion. He is eager to improve his broad knowledge about those topics by reading and own research. He permanently shared his findings to improve company culture. Also for whatever question you had about projects and teams, Paul was the person to ask: Not just because of his friendly nature, even more because he always came up with useful answers and suggestions.
+      He also impressed me several times with is ability to read customers within no time: Their needs, their wishes, their fears. This gift helped him several times to significantly improve customer projects when his colleagues had failed.
+      His departure is an immense loss for KDAB. His mentoring will be massively missed. There would have been so much more I, we could have learned from him."
+    affiliation: "Software Firefighter"
+  - name: "Kevin Ottens"
+    image: 'kevin.jpg'
+    description: "Paul is one of those colleagues you cherish because of the impact they have on your workplace atmosphere. He is definitely a nice fellow with a good sense of humour. But there's more to Paul than humour. He is also a professional and has a very good knowledge of people dynamics (based on science and also on feelings). That makes him a perfect fit for servant leadership of most teams I can think of."
+    affiliation: "Libre Software Craftsman"
+  - name: "Tom Callway"
+    image: 'tom.jpg'
+    description: "Paul is a hugely capable and knowledgeable FOSS advocate who can turn his hand to almost everything. He was highly regarded by his colleagues at Sirius for his professionalism and great sense of humour."
+    affiliation: "Product Marketing, Rancher Labs"
