@@ -1,8 +1,12 @@
 title: Baggerspion
 owner: Paul Adams, PhD
-description: "Agile Engineering Culture and Leadership & Open Source Expert"
+subtitle: "Agile Leadership, Engineering Culture & Open Source Expert"
 url: 'https://baggerspion.net'
 baseurl: '/'
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
 
 # Menu Content
 social:
@@ -12,11 +16,10 @@ social:
   twitter: https://twitter.com/therealpadams
 
 # Intro Content
-bio: >-
-  "I am a broadly-experienced engineering people lead with expertise in agility and open source; which have been the 
-  common themes throughout my career.I focus on people and process and enjoy working with engineers who are not afraid 
-  to take risks in the name of delighting end users. Most recently, I have enjoyed working as a lead-of-leads and 
-  developing strategies for larger teams of engineers."
+intro: >-
+  I am a broadly-experienced engineering people lead with expertise in agility and open source; which have been the 
+  common themes throughout my career. I focus on people and process and enjoy working with engineers who are not afraid 
+  to take risks in the name of delighting end users.
   
 info:
   block1:
