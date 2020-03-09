@@ -24,15 +24,22 @@ intro: >-
   common themes throughout my career. I focus on people and process and enjoy working with engineers who are not afraid 
   to take risks in the name of delighting end users.
   
-info:
+about:
   block1:
-    title: "Open Source & InnerSource"
-    text: "Some content here"
+    title: "Agility"
+    text: >-
+      I have over 15 years of experience as agile practitioner and team coach. I enjoy building teams which are culturally 
+      agile and not just functionally agile. I value agility well above any specific process.
   block2:
-    title: "Agilty & Servant Leadership"
-    text: > 
-      "I have over 15 years of experience as agile practitioner and team coach. While formally trained as a ScrumMaster, I
-      care more about agility. I enjoy beuilding teams which are culturally agile and not just functionally agile."
+    title: "Culture"
+    text: >-
+      I strongly believe that culture, and not technology, is at the heart of software engineering. I build teams which are
+      empowered, respectful, curious and embrace failure as a learning opportunity.
+  block3:
+    title: "Open Source"
+    text: >-
+      Open Source/InnerSource act as a vehicle for higher quality, innovation and productivity. I am actively involved in
+      many Open Source initiatives and encourage InnerSource activities in all organisations I work with.
 
 # Testemonial Content
 references:
