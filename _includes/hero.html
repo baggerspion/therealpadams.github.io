@@ -1,44 +1,15 @@
-<div class="main-content" id="home">
-    <header class="header">
-        <div class="container">
-            <nav class="py-3">
-                <div id="logo">
-                    <h1> <a class="navbar-brand" href="index.html">{{ site.title }}</a>
-                    </h1>
-                </div>
-
-                <label for="drop" class="toggle">Menu</label>
-                <input type="checkbox" id="drop" />
-                <ul class="menu mt-2">
-                    <li><a href="#testemonials">Testemonials</a></li>
-                    <li class="dropdown">
-                        <label for="drop-2" class="toggle">Social Media <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
-                        <a href="#">Social Media<span class="fa fa-angle-down" aria-hidden="true"></span></a>
-                        <input type="checkbox" id="drop-2" />
-                        <ul>
-                            <li><a href="{{ site.social.linkedin }}"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
-                            <li><a href="{{ site.social.github }}"><i class="fa fa-github"></i> GitHub</a></li>
-                            <li><a href="{{ site.social.twitter }}"><i class="fa fa-twitter"></i> Twitter</a></li>
-                            <li><a href="{{ site.social.instagram }}"><i class="fa fa-instagram"></i> Instagram</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section class="banner">
-        <div class="container">
-            <div class="row banner-grids">
-                <div class="col-lg-6 banner-info-w3ls">
-                    <h2>{{ site.owner }}</h2>
-                    <h3 class="mb-3">{{ site.subtitle }}</h3>
-                    <p class="mb-4">{{ site.intro }}</p>
-                    <a href="#testemonials" class="btn">Testemonials</a>
-                </div>
+<section class="banner">
+    <div class="container">
+        <div class="row banner-grids">
+            <div class="col-lg-6 banner-info-w3ls">
+                <h2>{{ site.owner }}</h2>
+                <h3 class="mb-3">{{ site.subtitle }}</h3>
+                <p class="mb-4">{{ site.intro }}</p>
+                <a href="#testemonials" class="btn">Testemonials</a>
             </div>
         </div>
-        <div class="bounce">
-            <i class="fa fa-angle-down"></i>
-        </div>
-    </section>
-</div>
+    </div>
+    <div class="bounce">
+        <i class="fa fa-angle-down"></i>
+    </div>
+</section>

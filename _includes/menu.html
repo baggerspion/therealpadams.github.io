@@ -1,0 +1,28 @@
+<header class="header">
+    <div class="container">
+        <nav class="py-3">
+            <div id="logo">
+                <h1> <a class="navbar-brand" href="/">{{ site.title }}</a>
+                </h1>
+            </div>
+
+            <label for="drop" class="toggle">Menu</label>
+            <input type="checkbox" id="drop" />
+            <ul class="menu mt-2">
+                <li><a href="#presentations">Presentations</a></li>
+                <li><a href="#testemonials">Testemonials</a></li>
+                <li class="dropdown">
+                    <label for="drop-2" class="toggle">Social Media <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+                    <a href="#">Social Media<span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                    <input type="checkbox" id="drop-2" />
+                    <ul>
+                        <li><a href="{{ site.social.linkedin }}"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="{{ site.social.github }}"><i class="fa fa-github"></i> GitHub</a></li>
+                        <li><a href="{{ site.social.twitter }}"><i class="fa fa-twitter"></i> Twitter</a></li>
+                        <li><a href="{{ site.social.instagram }}"><i class="fa fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>

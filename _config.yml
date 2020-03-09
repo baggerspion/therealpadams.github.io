@@ -8,6 +8,9 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+collections:
+  - presentations
+
 # Menu Content
 social:
   linkedin: https://www.linkedin.com/in/pauljadams/
