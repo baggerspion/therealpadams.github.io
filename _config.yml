@@ -11,6 +11,14 @@ plugins:
 collections:
   - presentations
 
+permalink: /blog/:year/:month/:title
+
+defaults:
+  - scope:
+      type: "posts"
+    values:
+      layout: blog
+
 # Menu Content
 social:
   linkedin: https://www.linkedin.com/in/pauljadams/
