@@ -96,22 +96,6 @@ ul {
     -ms-transition: 0.5s all;
 }
 
-.top-right-info li span.fa-facebook-f {
-    color: #3b5998;
-}
-
-.top-right-info li span.fa-twitter {
-    color: #1da1f2;
-}
-
-.top-right-info li span.fa-google-plus {
-    color: #F44336;
-}
-
-.top-right-info li span.fa-dribbble {
-    color: #ea4c89;
-}
-
 .top-right-info li span:hover,
 .top-lavi p a:hover {
     opacity: 0.8;
