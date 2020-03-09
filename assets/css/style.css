@@ -851,7 +851,7 @@ ul.tic-info li span {
     background: none;
 }
 
-.detail h4.title a {
+.detail h4.title {
     color: #fff;
     font-size: 0.9em;
 }
@@ -875,7 +875,7 @@ ul.tic-info li span {
     color: #ef9632;
 }
 
-.detail .location a,
+.detail .location,
 .footer-properties a {
     font-size: 13px;
     color: #bbb5b5;

@@ -1,26 +1,27 @@
 <section class="portfolio-flyer py-5" id="presentations">
     <div class="container pt-lg-3 pb-md-5">
         <h3 class="tittle text-center my-lg-5 my-3">Recent Presentations</h3>
-        <!-- div class="row news-grids pb-lg-5 mt-3 mt-lg-5" -->
-        <div class="card-deck">
+        <div class="row news-grids pb-lg-5 mt-3 mt-lg-5">
+        <!-- div class="card-deck" -->
             {% assign sorted = (site.presentations | sort: 'date') | reverse %}
-            {% for presentation in sorted limit:4 %}
-            <div class="card">
-                <img src="/assets/images/presentations/{{ presentation.image }}" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">{{ presentation.title }}</h5>
-                    <div class="card-text">{{ presentation.content | strip_html | truncatewords:20 }}</div>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                        <span class="fa fa-map-marker"></span> {{ presentation.location }}
-                    </li>
-                    <li class="list-group-item">
-                        <span class="fa fa-user"></span> {{ presentation.event }}
-                    </li>
-                  </ul>
-                <div class="card-footer">
-                    <span class="fa fa-calendar"></span> {{ presentation.date | date_to_long_string }}
+            {% for presentation in sorted limit:6 %}
+            <div class="col-lg-4 gal-img mt-lg-4">
+                <div class="gal-info">
+                    <img src="/assets/images/presentations/{{ presentation.image }}" class="card-img-top" alt="...">
+                    <div class="property-info-list">
+                        <div class="detail">
+                            <h4 class="title">{{ presentation.title | truncate:35 }}</h4>
+                            <div class="location mt-2">
+                                <span class="fa fa-map-marker"></span> {{ presentation.location }}
+                            </div>
+                        </div>
+                        <div class="footer-properties">
+                            <a class="admin" href="#">
+                                <span class="fa fa-users"></span> {{ presentation.event }}
+                            </a>
+                            <span class="year text-right"> <span class="fa fa-calendar"></span> {{ presentation.date | date_to_string }}</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             {% endfor %}
