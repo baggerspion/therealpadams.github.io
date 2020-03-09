@@ -4,6 +4,7 @@ event: foss-north
 date: 2018-04-18
 location: Gothenburg / Sweden
 image: fossn.jpg
+web: https://foss-north.se/2018/speakers-and-talks.html
 ---
 Take a moment to ask yourself, "what are Pull Requests for?"
 

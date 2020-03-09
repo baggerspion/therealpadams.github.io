@@ -4,6 +4,7 @@ event: Postgres Vision
 date: 2019-06-26
 location: Boston / USA
 image: pgv.jpg
+web: https://pgv2019.sched.com/event/Q1Qm/htap-by-accident-getting-more-from-postgresql-using-hardware-acceleration
 ---
 Big Data. Data Science. AI. It's all big business.
 

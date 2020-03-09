@@ -3,6 +3,7 @@ title: "Really Big Data in Real-Time: IoT Machine Data Processing in CrateDB & G
 event: SQL NYC Meetup
 date: 2016-12-01
 location: New York / USA
+web: https://www.meetup.com/de-DE/Downtown-NYC-Tech-Meetup/events/231620976/
 ---
 If you have been following the IoT-trends since before the Internet-of-Things was cool, then you probably are aware that 
 the results of having Internet-of-Everything is that all of your connected devices are now pumping out data at a terrifying 

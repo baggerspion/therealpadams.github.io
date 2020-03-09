@@ -4,6 +4,7 @@ event: Codemotion
 date: 2018-11-21
 location: Berlin / Germany
 image: codemotion.jpg
+web: https://berlin2018.codemotionworld.com/talk-detail/?detail=10425
 ---
 One day you're going to wake up and find your little startup ain't so little anymore. You don't all know each other's 
 names. You don't know what everyone is working on. The company is no longer a team, it is a collection of teams and each 

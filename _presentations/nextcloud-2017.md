@@ -4,6 +4,7 @@ event: Nextcloud Conference
 date: 2017-08-27
 location: Berlin / Germany
 image: nextcloud.jpg
+web: https://nextcloud.com/de/conf-2017/
 ---
 This workshop was a follow-up to my proposed talk on the subject of the official Nextcloud Docker image. In this workshop 
 we covered:
