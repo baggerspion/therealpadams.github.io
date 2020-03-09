@@ -1,47 +1,20 @@
-<!DOCTYPE html>
-<html lang="eng">
-    <title>{{ site.title }}</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8" />
-    <meta name="keywords" content="Paul Adams, open source, Free Software, agility, software engineering, leadership" />
-    
-    <script>
-        addEventListener("load", function() {
-            setTimeout(hideURLbar, 0);
-        }, false);
-
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-    </script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/all.min.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800">
-</head>
-<body>
-    <div class="main-content inner" id="home">
-        {% include menu.html %}
-        <section class="banner">
-            <div class="container">
-                <div class="row banner-grids">
-                    <div class="col-lg-6 banner-info-w3ls">
-                        <h3 class="mb-3">{{ page.title }}</h3>
-                    </div>
+---
+layout: default
+---
+<div class="main-content inner" id="home">
+    {% include menu.html %}
+    <section class="banner">
+        <div class="container">
+            <div class="row banner-grids">
+                <div class="col-lg-6 banner-info-w3ls">
+                    <h3 class="mb-3">{{ page.title }}</h3>
                 </div>
             </div>
-        </section>
-    </div>
-    <section class="py-md-5 py-5">
-        <div class="container">
-            {{ content }}
         </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    {% include copyright.html %}
-</body>
+</div>
+<section class="py-md-5 py-5">
+    <div class="container">
+        {{ content }}
+    </div>
+</section>
