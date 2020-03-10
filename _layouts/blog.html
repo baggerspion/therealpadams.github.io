@@ -32,7 +32,12 @@ layout: page
                         <span class="fa-li"><i class="fab fa-linkedin-in"></i></span>LinkedIn
                     </a>
                 </li>
-                <li><span class="fa-li"><i class="fas fa-envelope"></i></span>Email</li>
+                <li>
+                    <a  href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{ site.baseurl }}{{ page.url }}"
+            title="Share via Email" >
+                        <span class="fa-li"><i class="fas fa-envelope"></i></span>Email
+                    </a>
+                </li>
             </ul>
             <h5 class="my-3">Archives</h5>
             {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
