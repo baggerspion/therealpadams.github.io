@@ -690,14 +690,13 @@ h3.tittle {
 
 .team-gd {
     padding: 2em 2em;
-    background-color: #fff;
     border: 1px solid #ddd;
 }
 
 .team-info h3 {
     font-size: 1.2em;
     font-weight: 700;
-    color: #262631;
+    color:#fff;
     margin-bottom: 0.8em;
 }
 
@@ -2156,3 +2155,71 @@ a.move-top span {
 .pull-right { float: right; }
 
 /*--//responsive--*/
+
+.blog-post ul {
+    padding-left: 0;
+    margin-left: 1.4em;
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+
+.blog-post ul > li {
+    position: relative;
+}
+
+.blog-post ul li:before {
+    color: #ef9632;
+    font-family: 'Font Awesome 5 Free';
+    content: "\f0a4";
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.blog-post ul li {
+    color: #8c9398;
+    font-size: 0.9em;
+}
+
+.blog-post p {
+    line-height: 1.6em;
+}
+
+.blog-post h2 {
+    font-size: 1.5em;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+}
+.blog-post h3 {
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+
+.blog-post .footnotes ol {
+    padding-inline-start: 0.8em;
+}
+
+.blog-sidebar .fa-ul {
+    margin-left: 1.6em;
+    margin-top: 0.5em;
+}
+.blog-sidebar .fa-ul li {
+    font-size: 0.9em;
+}
+
+.blog-sidebar .fa-ul .fa-facebook {
+    color: #3b5998;
+}
+.blog-sidebar .fa-ul .fa-twitter {
+    color: #1DA1F2;
+}
+.blog-sidebar .fa-ul .fa-linkedin-in {
+    color: #2867B2;
+}
+.blog-sidebar .fa-ul .fa-envelope {
+    color: #00B886;
+}
+
+.blog-sidebar .fa-ul .fa-hand-point-right {
+    color: #ef9632;
+}

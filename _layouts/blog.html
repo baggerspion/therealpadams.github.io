@@ -1,0 +1,40 @@
+---
+layout: page
+---
+<div class="row">
+    <div class="col-md-8 blog-main">
+        <div class="blog-post">
+            {{ content }}
+        </div>
+    </div>
+    <aside class="col-md-4 blog-sidebar">
+        <div class="p-4">
+            <h5 class="my-3">Sharing</h5>
+            <ul class="fa-ul mb-0">
+                <li><span class="fa-li"><i class="fab fa-facebook"></i></span>Facebook</li>
+                <li><span class="fa-li"><i class="fab fa-twitter"></i></span>Twitter</li>
+                <li><span class="fa-li"><i class="fab fa-linkedin-in"></i></span>LinkedIn</li>
+                <li><span class="fa-li"><i class="fas fa-envelope"></i></span>Email</li>
+            </ul>
+            <h5 class="my-3">Archives</h5>
+            {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+            {% for year in postsByYear %}
+            {% if forloop.first %}
+            <details open>
+            {% else %}
+            <details>
+            {% endif %}
+                <summary>{{ year.name }}</summary>
+                <ul class="fa-ul mb-2">
+                    {% for post in year.items %}
+                    <li>
+                        <span class="fa-li"><i class="far fa-hand-point-right"></i></span>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </details>
+            {% endfor %}
+        </div>
+    </aside>
+</div>

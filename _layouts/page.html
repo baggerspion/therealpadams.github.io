@@ -7,6 +7,15 @@ layout: default
         <div class="container">
             <div class="row banner-grids">
                 <div class="col-lg-6 banner-info-w3ls">
+                    <h2>
+                        {% for category in page.categories %}
+                            {% if forloop.last %}
+                                {{ category }}
+                            {% else %}
+                                {{ category }},
+                            {% endif %}
+                        {% endfor %}
+                    </h2>
                     <h3 class="mb-3">{{ page.title }}</h3>
                     <p class="mb-4">{{ page.date | date_to_long_string }}</p>
                 </div>
