@@ -1,11 +1,30 @@
 <meta property="og:url"                content="{{ site.url }}{{ page.url }}" />
 <meta property="og:type"               content="article" />
 <meta property="og:title"              content="{{ page.title }}" />
-{% if page.excerpt != "" %}
-<meta property="og:description"        content="{{ page.excerpt | strip_html }}" />
+{% if page.summary %}
+<meta property="og:description"        content="{{ page.summary }}" />
+{% else %}
+<meta property="og:description"        content="{{ site.subtitle }}" />
 {% endif %}
 {% if page.image %}
 <meta property="og:image"              content="{{ site.url }}/assets/images/blog/{{ page.image }}" />
 {% else %}
 <meta property="og:image"              content="{{ site.url }}/assets/images/banner.jpg" />
+{% endif %}
+
+<meta name="twitter:site"    content="@therealpadams">
+<meta name="twitter:title"   content="{{ page.title }}">
+
+{% if page.summary %}
+<meta name="twitter:description" content="{{ page.summary }}" />
+{% else %}
+<meta name="twitter:description" content="{{ site.subtitle }}" />
+{% endif %}
+
+{% if page.image %}
+<meta name="twitter:card"  content="summary_large_image" />
+<meta name="twitter:image" content="{{ site.url }}/assets/images/blog/{{ page.image }}" />
+{% else %}
+<meta name="twitter:card"  content="summary" />
+<meta name="twitter:image" content="{{ site.url }}/assets/images/banner.jpg" />
 {% endif %}
